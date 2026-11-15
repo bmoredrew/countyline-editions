@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Countyline Editions</title>
+<meta name="description" content="Countyline Editions is a small photography imprint in Baltimore, Maryland. Zines and small-run publications.">
+<meta property="og:title" content="Countyline Editions">
+<meta property="og:description" content="A small photography imprint in Baltimore, Maryland. Zines and small-run publications.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://countylineeditions.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F2EDE3;
+    --ink: #1a1a1a;
+    --muted: #6f6a60;
+    --gutter: clamp(20px, 6vw, 72px);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  a { color: inherit; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:hover, a:focus-visible { background: var(--ink); color: var(--paper); text-decoration: none; outline: none; }
+
+  .page { max-width: 980px; margin: 0 auto; padding: 0 var(--gutter); min-height: 100vh; display: flex; flex-direction: column; }
+
+  .strip {
+    display: flex; justify-content: space-between; gap: 16px;
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    padding: 28px 0 10px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .strip.foot { border-bottom: 0; border-top: 1px solid var(--ink); padding: 14px 0 36px; margin-top: auto; }
+
+  h1 {
+    font-family: 'Oswald', 'Impact', 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: clamp(60px, 15.5vw, 172px);
+    line-height: 0.92;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin: clamp(48px, 11vw, 120px) 0 0;
+  }
+  .tag { letter-spacing: 0.22em; text-transform: uppercase; font-size: 13px; margin: 26px 0 0; }
+
+  .about { max-width: 58ch; margin: clamp(48px, 9vw, 96px) 0 0; }
+
+  section { margin-top: clamp(48px, 9vw, 96px); }
+  h2 {
+    font: inherit; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    margin: 0; padding-bottom: 10px; border-bottom: 1px solid rgba(26,26,26,0.5);
+  }
+
+  .list { list-style: none; margin: 0; padding: 0; }
+  .list li {
+    display: grid; grid-template-columns: 4.5ch 1fr auto; column-gap: 2ch; align-items: baseline;
+    padding: 12px 0; border-bottom: 1px solid rgba(26,26,26,0.14);
+    text-transform: uppercase; letter-spacing: 0.04em; font-size: 13px;
+  }
+  .list .note { display: block; text-transform: none; letter-spacing: 0; color: var(--muted); font-size: 12.5px; }
+  .list .status { text-align: right; white-space: nowrap; }
+
+  .contact { display: grid; grid-template-columns: 14ch 1fr; row-gap: 6px; margin: 16px 0 0; }
+  .contact dt { text-transform: uppercase; letter-spacing: 0.04em; font-size: 13px; }
+  .contact dd { margin: 0; }
+
+  .spacer { height: clamp(56px, 10vw, 110px); }
+
+  @media (max-width: 560px) {
+    .list li { grid-template-columns: 4.5ch 1fr; }
+    .list .status { grid-column: 2; text-align: left; color: var(--muted); }
+    .contact { grid-template-columns: 1fr; row-gap: 0; }
+    .contact dd { margin-bottom: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="strip">
+    <span>Countyline Editions</span>
+    <span>Baltimore, MD</span>
+  </div>
+
+  <header>
+    <h1>Countyline<br>Editions</h1>
+    <p class="tag">Photo zines / small runs</p>
+  </header>
+
+  <p class="about">
+    Countyline Editions is a small photography imprint run by Drew Poland in Baltimore, Maryland.
+    Zines and small-run publications, printed in limited editions and mailed out by hand.
+  </p>
+
+  <section aria-labelledby="pubs">
+    <h2 id="pubs">Publications</h2>
+    <ol class="list">
+      <li>
+        <span>001</span>
+        <span>Local Skaters <span class="note">Drew Poland. Companion zine to the exhibition, 60 pages.</span></span>
+        <span class="status">2026</span>
+      </li>
+      <li>
+        <span>002</span>
+        <span><a href="https://www.drewpoland.com/cover-of-dark">Cover of Dark, Vol. 1</a> <span class="note">Drew Poland. Graffiti writers in Baltimore, after dark. Edition of 50.</span></span>
+        <span class="status">2026</span>
+      </li>
+      <li>
+        <span>003</span>
+        <span>Route 222 <span class="note">Drew Poland. Black-and-white place study.</span></span>
+        <span class="status">2026</span>
+      </li>
+      <li>
+        <span>004</span>
+        <span>Local Document, Issue 001 <span class="note">Chip Parker, Matt Sanchez, Jon Hughen, Joe Giordano. Edition of 75.</span></span>
+        <span class="status">January 2027</span>
+      </li>
+      <li>
+        <span>005</span>
+        <span>California Snapshots <span class="note">Drew Poland.</span></span>
+        <span class="status">Summer 2027</span>
+      </li>
+      <li>
+        <span>006</span>
+        <span>On the Midway <span class="note">Drew Poland. County fairs and rodeo season.</span></span>
+        <span class="status">2028</span>
+      </li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">Contact</h2>
+    <dl class="contact">
+      <dt>Instagram</dt>
+      <dd><a href="https://www.instagram.com/countyline.editions/">@countyline.editions</a></dd>
+      <dt>Editor</dt>
+      <dd><a href="https://www.drewpoland.com">drewpoland.com</a> / <a href="https://www.instagram.com/bmoredrewfoto/">@bmoredrewfoto</a></dd>
+      <dt>Orders</dt>
+      <dd>Message on Instagram.</dd>
+    </dl>
+  </section>
+
+  <div class="spacer"></div>
+
+  <div class="strip foot">
+    <span>&copy; 2026 Countyline Editions</span>
+    <span>Baltimore, MD</span>
+  </div>
+
+</div>
+</body>
+</html>
